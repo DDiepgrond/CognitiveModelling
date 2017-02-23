@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func touchButton(_ sender: UIButton) {
-        NSLog("Test succeeded again")
+        NSLog("Test succeeded again and again")
     }
 
 }
