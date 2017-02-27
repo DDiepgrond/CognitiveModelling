@@ -12,6 +12,7 @@
 		92240ECC1E5F322700FF198E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92240ECA1E5F322700FF198E /* LaunchScreen.storyboard */; };
 		92240ED71E5F322700FF198E /* OhHellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92240ED61E5F322700FF198E /* OhHellTests.swift */; };
 		92240EE21E5F322700FF198E /* OhHellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92240EE11E5F322700FF198E /* OhHellUITests.swift */; };
+		9233C1811E6455ED00598CF0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233C1801E6455ED00598CF0 /* Model.swift */; };
 		925A30031E643170002ACA7A /* Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF61E643170002ACA7A /* Chunk.swift */; };
 		925A30041E643170002ACA7A /* Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF71E643170002ACA7A /* Production.swift */; };
 		925A30051E643170002ACA7A /* Procedural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF81E643170002ACA7A /* Procedural.swift */; };
@@ -58,6 +59,7 @@
 		92240EDD1E5F322700FF198E /* OhHellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhHellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92240EE11E5F322700FF198E /* OhHellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhHellUITests.swift; sourceTree = "<group>"; };
 		92240EE31E5F322700FF198E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9233C1801E6455ED00598CF0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		925A2FF61E643170002ACA7A /* Chunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chunk.swift; sourceTree = "<group>"; };
 		925A2FF71E643170002ACA7A /* Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production.swift; sourceTree = "<group>"; };
 		925A2FF81E643170002ACA7A /* Procedural.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedural.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				92240EC81E5F322700FF198E /* Assets.xcassets */,
 				92240ECA1E5F322700FF198E /* LaunchScreen.storyboard */,
 				92240ECD1E5F322700FF198E /* Info.plist */,
+				9233C1801E6455ED00598CF0 /* Model.swift */,
 			);
 			path = OhHell;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				925A300A1E643170002ACA7A /* Tokenizer.swift in Sources */,
 				925A30071E643170002ACA7A /* Declarative.swift in Sources */,
 				92240EC21E5F322700FF198E /* AppDelegate.swift in Sources */,
+				9233C1811E6455ED00598CF0 /* Model.swift in Sources */,
 				925A30061E643170002ACA7A /* Parser.swift in Sources */,
 				925A300C1E643170002ACA7A /* SlotCondition.swift in Sources */,
 				92F9DCA11E64510100D471B9 /* MainViewController.swift in Sources */,
