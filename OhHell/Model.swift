@@ -14,22 +14,22 @@ class AI: Model {
     var currentChallengeScore:Int = 0
     var initialRoundValue:Int = 0
     
-    func getTrustLevel() -> Double {
-        let request = Chunk(s: "request", m: self)
-        request.setSlot("isa", value: "trust-level")
-        let (_,bla) = dm.blendedRetrieve(request)
-        let trustLevel = (Double)((bla!.slotValue("value")?.number())!)
-        return (trustLevel - 1.0) / 9.0
-    }
-    
-    func getSelfConfidenceLevel() -> Double {
-        let request = Chunk(s: "request", m: self)
-        request.setSlot("isa", value: "selfconflevel")
-        let (_,bla) = dm.blendedRetrieve(request)
-        let selfConfLevel = Double((bla?.slotValue("value")?.number())!)
-        return (selfConfLevel / 3.0)
-    }
-    
+//    func getTrustLevel() -> Double {
+//        let request = Chunk(s: "request", m: self)
+//        request.setSlot("isa", value: "trust-level")
+//        let (_,bla) = dm.blendedRetrieve(request)
+//        let trustLevel = (Double)((bla!.slotValue("value")?.number())!)
+//        return (trustLevel - 1.0) / 9.0
+//    }
+//    
+//    func getSelfConfidenceLevel() -> Double {
+//        let request = Chunk(s: "request", m: self)
+//        request.setSlot("isa", value: "selfconflevel")
+//        let (_,bla) = dm.blendedRetrieve(request)
+//        let selfConfLevel = Double((bla?.slotValue("value")?.number())!)
+//        return (selfConfLevel / 3.0)
+//    }
+//    
     func addTrust(value: Int) {
         // Add good and bad trust experiences to DM")
         //dm.addToDMOrStrengthen(dm.chunks["exp\(value)"]!)
