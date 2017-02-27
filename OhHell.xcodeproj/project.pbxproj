@@ -14,6 +14,19 @@
 		92240ECC1E5F322700FF198E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92240ECA1E5F322700FF198E /* LaunchScreen.storyboard */; };
 		92240ED71E5F322700FF198E /* OhHellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92240ED61E5F322700FF198E /* OhHellTests.swift */; };
 		92240EE21E5F322700FF198E /* OhHellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92240EE11E5F322700FF198E /* OhHellUITests.swift */; };
+		925A30031E643170002ACA7A /* Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF61E643170002ACA7A /* Chunk.swift */; };
+		925A30041E643170002ACA7A /* Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF71E643170002ACA7A /* Production.swift */; };
+		925A30051E643170002ACA7A /* Procedural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF81E643170002ACA7A /* Procedural.swift */; };
+		925A30061E643170002ACA7A /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF91E643170002ACA7A /* Parser.swift */; };
+		925A30071E643170002ACA7A /* Declarative.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FFA1E643170002ACA7A /* Declarative.swift */; };
+		925A30081E643170002ACA7A /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FFB1E643170002ACA7A /* Support.swift */; };
+		925A30091E643170002ACA7A /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FFC1E643170002ACA7A /* Model.swift */; };
+		925A300A1E643170002ACA7A /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FFD1E643170002ACA7A /* Tokenizer.swift */; };
+		925A300B1E643170002ACA7A /* Instantiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FFE1E643170002ACA7A /* Instantiation.swift */; };
+		925A300C1E643170002ACA7A /* SlotCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FFF1E643170002ACA7A /* SlotCondition.swift */; };
+		925A300D1E643170002ACA7A /* BufferCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A30001E643170002ACA7A /* BufferCondition.swift */; };
+		925A300E1E643170002ACA7A /* SlotAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A30011E643170002ACA7A /* SlotAction.swift */; };
+		925A300F1E643170002ACA7A /* BufferAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A30021E643170002ACA7A /* BufferAction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		92240EDD1E5F322700FF198E /* OhHellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhHellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92240EE11E5F322700FF198E /* OhHellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhHellUITests.swift; sourceTree = "<group>"; };
 		92240EE31E5F322700FF198E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925A2FF61E643170002ACA7A /* Chunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chunk.swift; sourceTree = "<group>"; };
+		925A2FF71E643170002ACA7A /* Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production.swift; sourceTree = "<group>"; };
+		925A2FF81E643170002ACA7A /* Procedural.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedural.swift; sourceTree = "<group>"; };
+		925A2FF91E643170002ACA7A /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		925A2FFA1E643170002ACA7A /* Declarative.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Declarative.swift; sourceTree = "<group>"; };
+		925A2FFB1E643170002ACA7A /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		925A2FFC1E643170002ACA7A /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		925A2FFD1E643170002ACA7A /* Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
+		925A2FFE1E643170002ACA7A /* Instantiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instantiation.swift; sourceTree = "<group>"; };
+		925A2FFF1E643170002ACA7A /* SlotCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotCondition.swift; sourceTree = "<group>"; };
+		925A30001E643170002ACA7A /* BufferCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferCondition.swift; sourceTree = "<group>"; };
+		925A30011E643170002ACA7A /* SlotAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotAction.swift; sourceTree = "<group>"; };
+		925A30021E643170002ACA7A /* BufferAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +103,7 @@
 		92240EB51E5F322700FF198E = {
 			isa = PBXGroup;
 			children = (
+				925A30101E643182002ACA7A /* Core ACT-R */,
 				92240EC01E5F322700FF198E /* OhHell */,
 				92240ED51E5F322700FF198E /* OhHellTests */,
 				92240EE01E5F322700FF198E /* OhHellUITests */,
@@ -97,9 +124,9 @@
 		92240EC01E5F322700FF198E /* OhHell */ = {
 			isa = PBXGroup;
 			children = (
+				92240EC51E5F322700FF198E /* Main.storyboard */,
 				92240EC11E5F322700FF198E /* AppDelegate.swift */,
 				92240EC31E5F322700FF198E /* ViewController.swift */,
-				92240EC51E5F322700FF198E /* Main.storyboard */,
 				92240EC81E5F322700FF198E /* Assets.xcassets */,
 				92240ECA1E5F322700FF198E /* LaunchScreen.storyboard */,
 				92240ECD1E5F322700FF198E /* Info.plist */,
@@ -123,6 +150,26 @@
 				92240EE31E5F322700FF198E /* Info.plist */,
 			);
 			path = OhHellUITests;
+			sourceTree = "<group>";
+		};
+		925A30101E643182002ACA7A /* Core ACT-R */ = {
+			isa = PBXGroup;
+			children = (
+				925A2FFF1E643170002ACA7A /* SlotCondition.swift */,
+				925A2FF61E643170002ACA7A /* Chunk.swift */,
+				925A2FF71E643170002ACA7A /* Production.swift */,
+				925A2FF81E643170002ACA7A /* Procedural.swift */,
+				925A2FF91E643170002ACA7A /* Parser.swift */,
+				925A2FFA1E643170002ACA7A /* Declarative.swift */,
+				925A2FFB1E643170002ACA7A /* Support.swift */,
+				925A2FFC1E643170002ACA7A /* Model.swift */,
+				925A2FFD1E643170002ACA7A /* Tokenizer.swift */,
+				925A2FFE1E643170002ACA7A /* Instantiation.swift */,
+				925A30001E643170002ACA7A /* BufferCondition.swift */,
+				925A30011E643170002ACA7A /* SlotAction.swift */,
+				925A30021E643170002ACA7A /* BufferAction.swift */,
+			);
+			name = "Core ACT-R";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +309,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925A30091E643170002ACA7A /* Model.swift in Sources */,
+				925A300E1E643170002ACA7A /* SlotAction.swift in Sources */,
+				925A300B1E643170002ACA7A /* Instantiation.swift in Sources */,
+				925A300D1E643170002ACA7A /* BufferCondition.swift in Sources */,
+				925A300A1E643170002ACA7A /* Tokenizer.swift in Sources */,
+				925A30071E643170002ACA7A /* Declarative.swift in Sources */,
 				92240EC41E5F322700FF198E /* ViewController.swift in Sources */,
 				92240EC21E5F322700FF198E /* AppDelegate.swift in Sources */,
+				925A30061E643170002ACA7A /* Parser.swift in Sources */,
+				925A300C1E643170002ACA7A /* SlotCondition.swift in Sources */,
+				925A30041E643170002ACA7A /* Production.swift in Sources */,
+				925A30081E643170002ACA7A /* Support.swift in Sources */,
+				925A30031E643170002ACA7A /* Chunk.swift in Sources */,
+				925A30051E643170002ACA7A /* Procedural.swift in Sources */,
+				925A300F1E643170002ACA7A /* BufferAction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +574,7 @@
 				92240EE81E5F322700FF198E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92240EE91E5F322700FF198E /* Build configuration list for PBXNativeTarget "OhHellTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +583,7 @@
 				92240EEB1E5F322700FF198E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92240EEC1E5F322700FF198E /* Build configuration list for PBXNativeTarget "OhHellUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +592,7 @@
 				92240EEE1E5F322700FF198E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
