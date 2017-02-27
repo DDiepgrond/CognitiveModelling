@@ -34,12 +34,11 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="crW-tu-V8M">
-                                <rect key="frame" x="0.0" y="64" width="174" height="603"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="crW-tu-V8M">
+                                <rect key="frame" x="0.0" y="64" width="140" height="603"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqD-v2-Jet">
-                                        <rect key="frame" x="16" y="17" width="109" height="37"/>
+                                        <rect key="frame" x="10" y="26" width="109" height="37"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Play">
@@ -47,7 +46,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gJ6-x4-CCz">
-                                        <rect key="frame" x="16" y="83" width="109" height="37"/>
+                                        <rect key="frame" x="16" y="95" width="96" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Restart">
@@ -55,7 +54,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IUS-O2-71x">
-                                        <rect key="frame" x="16" y="149" width="109" height="37"/>
+                                        <rect key="frame" x="16" y="149" width="96" height="32"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Rules">
@@ -66,7 +65,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1Y-aj-fFo">
-                                        <rect key="frame" x="16" y="297" width="109" height="37"/>
+                                        <rect key="frame" x="16" y="297" width="96" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Settings">
@@ -74,7 +73,7 @@
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NT4-BX-g80">
-                                        <rect key="frame" x="0.0" y="222" width="176" height="37"/>
+                                        <rect key="frame" x="16" y="224" width="102" height="28"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Previous hands">
@@ -83,9 +82,17 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.67450980392156867" green="0.6705882352941176" blue="0.70980392156862748" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="zWK-3Q-3Nx"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.60392533279707938" green="0.60344724266697647" blue="0.7167252945" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="crW-tu-V8M" firstAttribute="top" secondItem="Oe9-Y2-2jN" secondAttribute="bottom" id="UpC-6z-RZM"/>
+                            <constraint firstAttribute="bottom" secondItem="crW-tu-V8M" secondAttribute="bottom" id="Yzx-Of-jaF"/>
+                            <constraint firstItem="crW-tu-V8M" firstAttribute="leading" secondItem="PFj-6j-Mic" secondAttribute="leading" id="ZXe-Ox-Nen"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ESB-4x-yQy">
@@ -97,6 +104,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="leadingConstraint" destination="ZXe-Ox-Nen" id="net-ir-ULV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WeT-z0-0mw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
