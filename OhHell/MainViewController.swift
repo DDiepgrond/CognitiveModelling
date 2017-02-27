@@ -10,8 +10,9 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-    var menushowing = false
+    var menushowing = true
 
+    @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -29,9 +30,9 @@ class MainViewController: UIViewController {
     
     @IBAction func openMenu(_ sender: Any) {
         if (menushowing){
-            
+            leadingConstraint.constant = -140
         }else{
-          //  leadingConstraint.constant=0
+            leadingConstraint.constant = 0
         }
         menushowing = !menushowing
     }
