@@ -4,7 +4,7 @@
 //
 //  Created by D. Diepgrond on 23/02/17.
 //  Copyright © 2017 D. Diepgrond. All rights reserved.
-// hehe jo jo
+
 
 import UIKit
 
@@ -27,6 +27,13 @@ class MainViewController: UIViewController {
         NSLog("Test succeeded again and again and again")
     }
 
+    @IBAction func OnlyClose(_ sender: Any) {
+        if(menushowing){
+            leadingConstraint.constant = -140
+            menushowing = !menushowing
+        }
+        // If play is clicked
+    }
     
     @IBAction func openMenu(_ sender: Any) {
         if (menushowing){

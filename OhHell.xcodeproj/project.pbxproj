@@ -12,7 +12,7 @@
 		92240ECC1E5F322700FF198E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92240ECA1E5F322700FF198E /* LaunchScreen.storyboard */; };
 		92240ED71E5F322700FF198E /* OhHellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92240ED61E5F322700FF198E /* OhHellTests.swift */; };
 		92240EE21E5F322700FF198E /* OhHellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92240EE11E5F322700FF198E /* OhHellUITests.swift */; };
-		9233C1811E6455ED00598CF0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233C1801E6455ED00598CF0 /* Model.swift */; };
+		9233C1811E6455ED00598CF0 /* Modelimplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9233C1801E6455ED00598CF0 /* Modelimplement.swift */; };
 		925A30031E643170002ACA7A /* Chunk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF61E643170002ACA7A /* Chunk.swift */; };
 		925A30041E643170002ACA7A /* Production.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF71E643170002ACA7A /* Production.swift */; };
 		925A30051E643170002ACA7A /* Procedural.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A2FF81E643170002ACA7A /* Procedural.swift */; };
@@ -26,6 +26,8 @@
 		925A300D1E643170002ACA7A /* BufferCondition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A30001E643170002ACA7A /* BufferCondition.swift */; };
 		925A300E1E643170002ACA7A /* SlotAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A30011E643170002ACA7A /* SlotAction.swift */; };
 		925A300F1E643170002ACA7A /* BufferAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A30021E643170002ACA7A /* BufferAction.swift */; };
+		928889C81E684CCB00B7AA18 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928889C71E684CCB00B7AA18 /* GameController.swift */; };
+		928889CD1E684FFC00B7AA18 /* PointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928889CC1E684FFC00B7AA18 /* PointModel.swift */; };
 		92F9DCA11E64510100D471B9 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F9DCA01E64510100D471B9 /* MainViewController.swift */; };
 		92F9DCA31E64510E00D471B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92F9DCA21E64510E00D471B9 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -59,7 +61,7 @@
 		92240EDD1E5F322700FF198E /* OhHellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OhHellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92240EE11E5F322700FF198E /* OhHellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhHellUITests.swift; sourceTree = "<group>"; };
 		92240EE31E5F322700FF198E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9233C1801E6455ED00598CF0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		9233C1801E6455ED00598CF0 /* Modelimplement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Modelimplement.swift; path = OhHell/Modelimplement.swift; sourceTree = "<group>"; };
 		925A2FF61E643170002ACA7A /* Chunk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chunk.swift; sourceTree = "<group>"; };
 		925A2FF71E643170002ACA7A /* Production.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Production.swift; sourceTree = "<group>"; };
 		925A2FF81E643170002ACA7A /* Procedural.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Procedural.swift; sourceTree = "<group>"; };
@@ -73,6 +75,8 @@
 		925A30001E643170002ACA7A /* BufferCondition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferCondition.swift; sourceTree = "<group>"; };
 		925A30011E643170002ACA7A /* SlotAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlotAction.swift; sourceTree = "<group>"; };
 		925A30021E643170002ACA7A /* BufferAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferAction.swift; sourceTree = "<group>"; };
+		928889C71E684CCB00B7AA18 /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		928889CC1E684FFC00B7AA18 /* PointModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointModel.swift; sourceTree = "<group>"; };
 		92F9DCA01E64510100D471B9 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		92F9DCA21E64510E00D471B9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,6 +114,7 @@
 				92240ED51E5F322700FF198E /* OhHellTests */,
 				92240EE01E5F322700FF198E /* OhHellUITests */,
 				92240EBF1E5F322700FF198E /* Products */,
+				928889CB1E684FA100B7AA18 /* Model-part */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,10 +134,11 @@
 				92F9DCA01E64510100D471B9 /* MainViewController.swift */,
 				92240EC11E5F322700FF198E /* AppDelegate.swift */,
 				92F9DCA21E64510E00D471B9 /* Main.storyboard */,
+				928889C71E684CCB00B7AA18 /* GameController.swift */,
 				92240EC81E5F322700FF198E /* Assets.xcassets */,
 				92240ECA1E5F322700FF198E /* LaunchScreen.storyboard */,
 				92240ECD1E5F322700FF198E /* Info.plist */,
-				9233C1801E6455ED00598CF0 /* Model.swift */,
+				928889CC1E684FFC00B7AA18 /* PointModel.swift */,
 			);
 			path = OhHell;
 			sourceTree = "<group>";
@@ -173,6 +179,14 @@
 				925A30021E643170002ACA7A /* BufferAction.swift */,
 			);
 			name = "Core ACT-R";
+			sourceTree = "<group>";
+		};
+		928889CB1E684FA100B7AA18 /* Model-part */ = {
+			isa = PBXGroup;
+			children = (
+				9233C1801E6455ED00598CF0 /* Modelimplement.swift */,
+			);
+			name = "Model-part";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +257,6 @@
 				TargetAttributes = {
 					92240EBD1E5F322700FF198E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 2C5PH4298U;
 						ProvisioningStyle = Automatic;
 					};
 					92240ED11E5F322700FF198E = {
@@ -316,10 +329,12 @@
 				925A300E1E643170002ACA7A /* SlotAction.swift in Sources */,
 				925A300B1E643170002ACA7A /* Instantiation.swift in Sources */,
 				925A300D1E643170002ACA7A /* BufferCondition.swift in Sources */,
+				928889CD1E684FFC00B7AA18 /* PointModel.swift in Sources */,
 				925A300A1E643170002ACA7A /* Tokenizer.swift in Sources */,
 				925A30071E643170002ACA7A /* Declarative.swift in Sources */,
 				92240EC21E5F322700FF198E /* AppDelegate.swift in Sources */,
-				9233C1811E6455ED00598CF0 /* Model.swift in Sources */,
+				9233C1811E6455ED00598CF0 /* Modelimplement.swift in Sources */,
+				928889C81E684CCB00B7AA18 /* GameController.swift in Sources */,
 				925A30061E643170002ACA7A /* Parser.swift in Sources */,
 				925A300C1E643170002ACA7A /* SlotCondition.swift in Sources */,
 				92F9DCA11E64510100D471B9 /* MainViewController.swift in Sources */,
@@ -471,7 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C5PH4298U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OhHell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CognitiveModelling.OhHell;
@@ -484,7 +499,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2C5PH4298U;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = OhHell/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CognitiveModelling.OhHell;
